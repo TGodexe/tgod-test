@@ -52,3 +52,42 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/test/main/type%20race", true))();
   	end
 })
+local Tab = Window:MakeTab({
+	Name = "Blox Fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Mukuro Hub",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+  	end
+})
+Tab:AddButton({
+	Name = "HOHO Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  	end
+})
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Arsenal ESP",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/zKjj0TQD", true))()
+  	end
+})
+local Tab = Window:MakeTab({
+	Name = "Lucky Block Battlegrounds",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "inf Lucky Block",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/3faS9abg", true))()
+  	end
+})

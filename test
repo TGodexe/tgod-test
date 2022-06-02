@@ -35,8 +35,11 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
   	end
 })
-Tab:AddButton({
+local Tab = Window:MakeTab({
 	Name = "Type Race",
+	Icon = "rbxassetid://4483345998",
+Tab:AddButton({
+	Name = "Auto Type",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/test/main/type%20race", true))();
   	end

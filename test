@@ -35,9 +35,17 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
   	end
 })
+Tab:AddButton({
+	Name = "Anti Afk",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/TGodexe/Anti-AFK-script/main/Anti%20afk", true))();
+  	end
+})
 local Tab = Window:MakeTab({
 	Name = "Type Race",
 	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 Tab:AddButton({
 	Name = "Auto Type",
 	Callback = function()
